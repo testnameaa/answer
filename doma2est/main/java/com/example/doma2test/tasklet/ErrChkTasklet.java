@@ -118,7 +118,7 @@ public class ErrChkTasklet implements Tasklet {
 //              String denKey = denNo + denGyo;
 //              if (!CheckUtil.isEmpty(denNo) && !CheckUtil.isEmpty(denGyo) && denNoCntMap.get(denKey) > 1) {
 //                  errFlg = true;
-//                  LogUtil.logValidatinError(logContext, "DenNo, DenGyo", BatchConstants.ERRMSG_DUPLICATE);
+//                  LogUtil.logValidatinError(logContext, "DenNo - DenGyo", BatchConstants.ERRMSG_DUPLICATE);
 //              }
                 
                 if (CheckUtil.isEmpty(JyuOrgStrDto.getRhinCd())) {
