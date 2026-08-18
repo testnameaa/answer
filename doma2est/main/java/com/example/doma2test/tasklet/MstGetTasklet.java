@@ -49,6 +49,8 @@ import com.example.doma2test.entity.RhinMst;
 import com.example.doma2test.entity.SokMst;
 import com.example.doma2test.entity.TokMst;
 import com.example.doma2test.entity.ToriMst;
+// 練習問題12(回答例)
+//import com.example.doma2test.entity.ZanMst;
 
 @Component
 public class MstGetTasklet implements Tasklet {
