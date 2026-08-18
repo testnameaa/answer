@@ -54,15 +54,15 @@ public class InConvTasklet implements Tasklet {
                     JyuOrgStrDto JyuOrgStrDto = new JyuOrgStrDto();
 
                     String tori_Cd = parts[BatchConstants.INPCSV_IDX_TORI_CD];
-//                    if (!CheckUtil.isEmpty(tori_Cd)) {tori_Cd = StringUtils.leftPad(tori_Cd, 8, '0');}
+                    if (!CheckUtil.isEmpty(tori_Cd)) {tori_Cd = StringUtils.leftPad(tori_Cd, 8, '0');}
                     // 練習問題02(回答例)
-                    if (!CheckUtil.isEmpty(tori_Cd)) {
-                    	if ("141601".equals(tori_Cd)) {
-                    		tori_Cd = "00000003";
-                    	} else {
-                    		tori_Cd = StringUtils.leftPad(tori_Cd, 8, '0');
-                    	}
-                    }
+//                    if (!CheckUtil.isEmpty(tori_Cd)) {
+//                    	if ("141601".equals(tori_Cd)) {
+//                    		tori_Cd = "00000003";
+//                    	} else {
+//                    		tori_Cd = StringUtils.leftPad(tori_Cd, 8, '0');
+//                    	}
+//                    }
                     JyuOrgStrDto.setToriCd(tori_Cd);
 
                     String bra_Cd = parts[BatchConstants.INPCSV_IDX_BRA_CD];
