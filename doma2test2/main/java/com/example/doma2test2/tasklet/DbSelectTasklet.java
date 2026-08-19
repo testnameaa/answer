@@ -29,9 +29,9 @@ public class DbSelectTasklet implements Tasklet {
         List<JyuOrgDto> stepDtoPut = new ArrayList<>();
 
         // 今回は学習用という事で抽出条件は固定値とする
-        Date startDate = Date.valueOf("2025-06-07");
-        Date endDate = Date.valueOf("2025-07-02");
-        String toriCd = "00000002";
+        Date startDate = Date.valueOf("2025-07-28");
+        Date endDate = Date.valueOf("2025-07-28");
+        String toriCd = "AB000011";
         List<JyuOrg> listJyuOrg = jyuOrgDaoCustom.selectTestIF(toriCd, startDate, endDate);
         // 練習問題13(回答例)
 //        Date startDate = Date.valueOf("2025-06-15");
