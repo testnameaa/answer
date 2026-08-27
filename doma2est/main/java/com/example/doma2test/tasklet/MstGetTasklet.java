@@ -326,10 +326,10 @@ public class MstGetTasklet implements Tasklet {
 //                  ZanMst zanMst = zanMstDao.selectById(rhinMst.getHinCd());
 //                  if (zanMst == null) {
 //	                  errFlg = true;
-//	                  LogUtil.logValidatinError(logContext, "ZaniMst", BatchConstants.ERRMSG_OUT_OF_STOCK);
+//	                  LogUtil.logValidatinError(logContext, "ZanMst", BatchConstants.ERRMSG_OUT_OF_STOCK);
 //                  } else if (zanMst.getZanSuryo() < barasu) {
 //	                  errFlg = true;
-//	                  LogUtil.logValidatinError(logContext, "ZaniMst", BatchConstants.ERRMSG_OUT_OF_STOCK);
+//	                  LogUtil.logValidatinError(logContext, "ZanMst", BatchConstants.ERRMSG_OUT_OF_STOCK);
 //                  }
 //                }
                 
