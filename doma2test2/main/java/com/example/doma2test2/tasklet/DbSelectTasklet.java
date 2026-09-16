@@ -37,7 +37,7 @@ public class DbSelectTasklet implements Tasklet {
         // 練習問題13(回答例)
 //        Date startDate = Date.valueOf("2025-07-28");
 //        Date endDate = Date.valueOf("2025-07-28");
-//        String braCd = "AB000012";
+//        String braCd = "AB000011";
 //        List<JyuOrg> listJyuOrg = jyuOrgDaoCustom.selectTestIF(braCd, startDate, endDate);
         
         for (JyuOrg jyuOrg : listJyuOrg) {
