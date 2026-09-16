@@ -45,6 +45,8 @@ import com.example.doma2test.dto.JyuOrgStrDto;
 import com.example.doma2test.entity.BraMst;
 import com.example.doma2test.entity.HaisoMst;
 import com.example.doma2test.entity.HinMst;
+// 練習問題11(回答例)
+//import com.example.doma2test.entity.RhinConvMst;
 import com.example.doma2test.entity.RhinMst;
 import com.example.doma2test.entity.SokMst;
 import com.example.doma2test.entity.TokMst;
