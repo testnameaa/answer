@@ -80,6 +80,7 @@ public class ErrChkTasklet implements Tasklet {
                     LogUtil.logValidatinError(logContext, "HatDate", BatchConstants.ERRMSG_NOT_DATE);
                 }
                 // 練習問題09(回答例)
+//                 ※既存の日付チェック処理（上のifブロック）をコメント化してから、以下を有効にして下さい
 //                String hatDate = JyuOrgStrDto.getHatDate();
 //                if (CheckUtil.isEmpty(hatDate)) {
 //                    errFlg = true;
