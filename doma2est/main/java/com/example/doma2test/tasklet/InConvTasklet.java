@@ -79,6 +79,7 @@ public class InConvTasklet implements Tasklet {
                     if (StringUtils.isEmpty(hat_Date)) {hat_Date = DateUtil.GetSysString();}
                     JyuOrgStrDto.setHatDate(hat_Date);
                     // 練習問題09(回答例)
+//					   ※既存の発注日設定処理（上の３行）をコメント化してから、以下を有効にして下さい
 //                    JyuOrgStrDto.setHatDate(parts[BatchConstants.INPCSV_IDX_HAT_DATE]);
                     
                     JyuOrgStrDto.setSyuDate(parts[BatchConstants.INPCSV_IDX_SYU_DATE]);
